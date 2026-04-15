@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  color: inherit;
+  font-family: inherit;
+}
+
+:root {
+  --color-text: ;
+  --color-body-bg: hsl(130 25 5);
+
+  --color-surface-bg: hsl(120 25 10);
+  --color-surface-text: hsl(0 0 90);
+  --color-surface-border: hsl(120 30 20);
+  --color-surface-secondary-bg: hsl(120 5 5);
+  --color-surface-secondary-text: hsl(0 0 80);
+
+  --color-btn-primary-bg: hsl(120 50 20);
+  --color-btn-primary-text: ;
+  --color-btn-primary-border: ;
+  --color-btn-primary-hover: ;
+  --color-btn-secondary-bg: ;
+  --color-btn-secondary-text: ;
+  --color-btn-secondary-border: hsl(120 50 20);
+  --color-btn-secondary-hover: ;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--color-body-bg);
+}
+
+#root {
+  margin: auto;
+  max-width: 1200px;
+}
+
+a {
+  text-decoration: none;
+}
