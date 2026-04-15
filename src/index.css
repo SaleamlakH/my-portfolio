@@ -7,11 +7,10 @@
 }
 
 :root {
-  --color-text: ;
   --color-body-bg: hsl(130 25 5);
 
   --color-surface-bg: hsl(120 25 10);
-  --color-surface-text: hsl(0 0 90);
+  --color-surface-text: hsl(0 0 85);
   --color-surface-border: hsl(120 30 20);
   --color-surface-secondary-bg: hsl(120 5 5);
   --color-surface-secondary-text: hsl(0 0 80);
@@ -35,7 +34,7 @@ body {
 
 #root {
   margin: auto;
-  max-width: 1200px;
+  max-width: 1080px;
 }
 
 a {

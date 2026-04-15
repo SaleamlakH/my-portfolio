@@ -1,0 +1,90 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  color: var(--color-surface-text);
+  background-color: var(--color-surface-bg);
+  border: 1px solid var(--color-surface-border);
+  border-radius: 3em;
+  padding: 0.5em 1.5em;
+  margin: 0.5em;
+  white-space: nowrap;
+}
+
+.brand {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.links {
+  display: none;
+}
+
+.links a {
+  text-align: center;
+  padding: 0.5em 0.8em;
+
+  &:hover,
+  &:active {
+    border-radius: 5em;
+    background-color: var(--color-btn-primary-bg);
+  }
+}
+
+.rightNav {
+  display: flex;
+  gap: 10px;
+}
+
+.menuBtn {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.menuLinks {
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  display: flex;
+  flex-direction: column;
+  color: var(--color-surface-secondary-text);
+  background-color: var(--color-surface-secondary-bg);
+  border: 1px solid var(--color-surface-secondary-border);
+  border-radius: 20px;
+  margin: 0.5em;
+  overflow: hidden;
+}
+
+.menuLinks a {
+  padding: 1em 4em 1em 1em;
+}
+
+.menuLinks a:not(:first-of-type) {
+  border-top: 1px solid var(--color-surface-border);
+}
+
+.themeBtn {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid var(--color-btn-secondary-border);
+  border-radius: 8px;
+  padding: 0.5em;
+}
+
+.sun {
+  display: none;
+}
+
+@media (min-width: 750px) {
+  .menuBtn {
+    display: none;
+  }
+
+  .links {
+    display: flex;
+  }
+}
