@@ -17,6 +17,9 @@
   font-weight: 500;
 }
 
+/* navigation links */
+
+/* wider screen */
 .links {
   display: none;
 }
@@ -32,16 +35,10 @@
   }
 }
 
-.rightNav {
-  display: flex;
-  gap: 10px;
-}
-
-.menuBtn {
-  background-color: transparent;
-  border: none;
-  display: flex;
-  align-items: center;
+/* small screen  */
+.menuLinks li {
+  padding: 0.5em;
+  display: contents;
 }
 
 .menuLinks {
@@ -64,6 +61,18 @@
 
 .menuLinks a:not(:first-of-type) {
   border-top: 1px solid var(--color-surface-border);
+}
+
+.rightNav {
+  display: flex;
+  gap: 10px;
+}
+
+.menuBtn {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
 }
 
 .themeBtn {

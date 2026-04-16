@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import style from './navbar.module.css';
 import * as Icons from '../Icons';
+import { navLinks } from './nav-links';
 
 function Navigation() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -25,20 +26,15 @@ function Navigation() {
       </div>
 
       {/* Center navigation */}
-      <div ref={linksRef} className={menuOpen ? style.menuLinks : style.links}>
-        <a href="#about" onClick={() => setMenuOpen(false)}>
-          About
-        </a>
-        <a href="#skills" onClick={() => setMenuOpen(false)}>
-          Tech Stack
-        </a>
-        <a href="#projects" onClick={() => setMenuOpen(false)}>
-          Projects
-        </a>
-        <a href="#contact" onClick={() => setMenuOpen(false)}>
-          Contact
-        </a>
-      </div>
+      <ul ref={linksRef} className={menuOpen ? style.menuLinks : style.links}>
+        {navLinks.map(({ label, href }) => (
+          <li>
+            <a href={href} onClick={() => setMenuOpen(false)}>
+              {label}
+            </a>
+          </li>
+        ))}
+      </ul>
 
       <div className={style.rightNav}>
         {/* theme and resume link */}

@@ -23,6 +23,24 @@
   --color-btn-secondary-text: ;
   --color-btn-secondary-border: hsl(120 50 20);
   --color-btn-secondary-hover: ;
+
+  /* light mode */
+  /* --color-body-bg: hsl(0 0 95);
+
+  --color-surface-bg: hsl(120 0 90);
+  --color-surface-text: hsl(0 0 20);
+  --color-surface-border: hsl(120 30 20/ 0);
+  --color-surface-secondary-bg: hsl(120 5 5);
+  --color-surface-secondary-text: hsl(0 0 80);
+
+  --color-btn-primary-bg: hsl(120 0 75);
+  --color-btn-primary-text: ;
+  --color-btn-primary-border: ;
+  --color-btn-primary-hover: ;
+  --color-btn-secondary-bg: ;
+  --color-btn-secondary-text: ;
+  --color-btn-secondary-border: hsl(120 50 20/0.5);
+  --color-btn-secondary-hover: ; */
 }
 
 body {
@@ -39,4 +57,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
