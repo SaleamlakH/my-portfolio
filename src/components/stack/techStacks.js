@@ -2,22 +2,24 @@ export const techStacks = [
   {
     category: 'Front-end',
     stacks: [
-      { name: 'HTML', icon: 'Github' },
-      { name: 'CSS', icon: 'Github' },
-      { name: 'JavaScript', icon: 'Github' },
-      { name: 'TypeScript', icon: 'Github' },
-      { name: 'React', icon: 'Github' },
+      { name: 'HTML', icon: 'Html' },
+      { name: 'CSS', icon: 'Css' },
+      { name: 'JavaScript', icon: 'JavaScript' },
+      { name: 'TypeScript', icon: 'TypeScript' },
+      { name: 'React', icon: 'React' },
+      { name: 'React Router', icon: 'ReactRouter' },
     ],
   },
 
   {
     category: 'Back-end',
     stacks: [
-      { name: 'JavaScript', icon: 'Github' },
-      { name: 'TypeScript', icon: 'Github' },
-      { name: 'Node', icon: 'Github' },
-      { name: 'Express', icon: 'Github' },
-      { name: 'PostgresSQL', icon: 'Github' },
+      { name: 'JavaScript', icon: 'JavaScript' },
+      { name: 'TypeScript', icon: 'TypeScript' },
+      { name: 'Node', icon: 'NodeJs' },
+      { name: 'Express', icon: 'Express' },
+      { name: 'PostgresSQL', icon: 'PostgreSQL' },
+      { name: 'PrismaORM', icon: 'PrismaORM' },
     ],
   },
 ];
