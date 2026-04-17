@@ -1,0 +1,60 @@
+.card {
+  border-radius: 16px;
+  background-color: hsl(0 0 12);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.body {
+  display: flex;
+  gap: 20px;
+  height: 100%;
+}
+
+.left {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+}
+
+.line {
+  height: 10px;
+  background-color: #475569;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.box {
+  flex-grow: 1;
+  background-color: #475569;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.bigBox {
+  height: 40%;
+  background-color: #475569;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.textLine {
+  height: 8px;
+  background-color: #475569;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+
+.textLineShort {
+  height: 8px;
+  width: 70%;
+  background-color: #475569;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}

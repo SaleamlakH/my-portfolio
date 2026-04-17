@@ -2,6 +2,7 @@ import Navigation from './components/navbar/Navigation';
 import Hero from './components/hero/Hero';
 import TechStack from './components/stack/TechStack';
 import Services from './components/services/Services';
+import Projects from './components/projects/Projects';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       <TechStack />
 
       <Services />
+
+      <Projects />
     </>
   );
 }
