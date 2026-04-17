@@ -8,23 +8,17 @@ function TechStack() {
     <section id="stack" className={style.techStack}>
       <h2>Tech Stack</h2>
 
-      {techStacks.map(({ category, stacks }) => (
-        <div className={style.category}>
-          <h3>{category}</h3>
-
-          <div className={style.cardsContainer}>
-            {stacks.map(({ name, icon }) => {
-              const StackIcon = Icons[icon];
-              return (
-                <StackCard>
-                  <StackIcon />
-                  {name}
-                </StackCard>
-              );
-            })}
-          </div>
-        </div>
-      ))}
+      <div className={style.cardsContainer}>
+        {techStacks.map(({ name, icon }) => {
+          const StackIcon = Icons[icon];
+          return (
+            <StackCard>
+              <StackIcon />
+              {name}
+            </StackCard>
+          );
+        })}
+      </div>
     </section>
   );
 }
