@@ -1,17 +1,12 @@
 .contact {
   color: var(--color-surface-text);
-  margin: 3em 1em;
+  margin: 1em;
   display: grid;
   gap: 1rem;
 }
 
-.contact {
-  color: var(--color-surface-text);
-  margin: 1em;
-}
-
 .title {
-  margin: 0;
+  margin-bottom: 0;
   width: 100%;
   max-width: 760px;
 }
