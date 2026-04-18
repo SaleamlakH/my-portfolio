@@ -1,14 +1,11 @@
 .contact {
   color: var(--color-surface-text);
-  margin: 1em;
+  padding:0 1em;
   display: grid;
-  gap: 1rem;
 }
 
 .title {
-  margin-bottom: 0;
-  width: 100%;
-  max-width: 760px;
+  margin-top: 0;
 }
 
 .form {

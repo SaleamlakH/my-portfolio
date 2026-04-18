@@ -41,6 +41,9 @@ body {
 #root {
   margin: auto;
   max-width: 1080px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 
 a {

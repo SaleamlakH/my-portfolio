@@ -6,7 +6,7 @@ import style from './tech-stack.module.css';
 function TechStack() {
   return (
     <section id="stack" className={style.techStack}>
-      <h2>Tech Stack</h2>
+      <h2 className={style.title}>Tech Stack</h2>
 
       <div className={style.cardsContainer}>
         {techStacks.map(({ name, icon }) => {

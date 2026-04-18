@@ -1,9 +1,15 @@
 .hero {
   color: var(--color-surface-text);
-  padding: 1em;
+  padding: 0 1em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .texts {
@@ -13,6 +19,7 @@
 .header {
   font-size: 3rem;
   line-height: 1.15;
+  margin: 0;
 }
 
 .description {
@@ -38,7 +45,7 @@
   }
 
   .header {
-    font-size: 3.5rem;
+    font-size: 5rem;
     padding: 0;
     margin-bottom: 0;
     max-width: 550px;

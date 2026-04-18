@@ -7,7 +7,7 @@ import ProjectImage from './ProjectImage';
 function Projects() {
   return (
     <section id="projects" className={style.projects}>
-      <h2>Projects</h2>
+      <h2 className={style.title}>Projects</h2>
 
       <div className={style.container}>
         {projectsList.map(({ img, title, stacks, description, links }) => {

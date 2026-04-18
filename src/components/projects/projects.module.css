@@ -1,6 +1,10 @@
 .projects {
   color: var(--color-surface-text);
-  margin: 1em;
+  padding: 0 1em;
+}
+
+.title {
+  margin-top: 0;
 }
 
 .container {
@@ -8,6 +12,7 @@
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   justify-content: center;
   gap: 25px;
+  padding: 0.5em;
 }
 
 .card {

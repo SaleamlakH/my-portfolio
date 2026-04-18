@@ -5,7 +5,7 @@ import style from './services.module.css';
 function Services() {
   return (
     <section id="services" className={style.services}>
-      <h2>Core Capabilities</h2>
+      <h2 className={style.title}>Core Capabilities</h2>
 
       <div className={style.cardsContainer}>
         {services.map(({ icon, title, description }) => {

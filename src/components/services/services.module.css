@@ -1,12 +1,17 @@
 .services {
   color: var(--color-surface-text);
-  margin: 3em 1em;
+  padding: 0 1em;
+}
+
+.title {
+  margin-top: 0;
 }
 
 .cardsContainer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 20px;
+  padding: 0.5em;
 }
 
 .card {

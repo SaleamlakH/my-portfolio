@@ -1,11 +1,15 @@
 .techStack {
   color: var(--color-surface-text);
-  margin: 1em;
+  padding: 0 1em;
 }
 
 .category {
   margin: 0 1em;
   text-align: center;
+}
+
+.title {
+  margin-top: 0;
 }
 
 .cardsContainer {
