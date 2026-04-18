@@ -12,7 +12,7 @@
 }
 
 .card {
-  background-color: hsl(120 5 15);
+  background-color: var(--color-surface-secondary-bg);
   padding: 1em;
   border-radius: 2em;
   min-width: 250px;
@@ -40,6 +40,7 @@
 
 .description {
   text-align: justify;
+  color: var(--color-surface-secondary-text);
 }
 
 @media (min-width: 750px) {

@@ -30,7 +30,7 @@ function Projects() {
                 <p className={style.description}>{description}</p>
                 {/* links */}
                 <div className={style.links}>
-                  <LinkButton href={links.source} variant="primary">
+                  <LinkButton href={links.source} variant="secondary">
                     <Github />
                     Source
                   </LinkButton>

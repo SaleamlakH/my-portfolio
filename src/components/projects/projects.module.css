@@ -11,7 +11,8 @@
 }
 
 .card {
-  background: hsl(120 5 15);
+  background-color: var(--color-surface-secondary-bg);
+  border: 1px solid var(--color-surface-border);
   border-radius: 2em;
   display: flex;
   flex-direction: column;
@@ -26,11 +27,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 1em;
+  border-bottom: 1px solid var(--color-surface-border);
 }
 
 .content h3 {
   padding: 0;
   margin: 0.5em 0;
+}
+
+.description {
+  color: var(--color-surface-secondary-text);
 }
 
 .stacksContainer {

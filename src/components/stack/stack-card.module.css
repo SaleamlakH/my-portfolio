@@ -1,6 +1,6 @@
 .stack {
   color: var(--color-surface-text);
-  background-color: hsl(120 5 15);
+  background-color: var(--color-surface-bg);
   border-radius: 5em;
   padding: 0.5em 1em;
   font-size: 1rem;
