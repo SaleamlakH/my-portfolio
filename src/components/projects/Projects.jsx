@@ -1,5 +1,5 @@
 import LinkButton from '../ui/linkButton/LinkButton';
-import { Github } from '../Icons';
+import { ExternalLink, Github } from '../Icons';
 import { projectsList } from './projects';
 import style from './projects.module.css';
 import ProjectImage from './ProjectImage';
@@ -35,6 +35,7 @@ function Projects() {
                     Source
                   </LinkButton>
                   <LinkButton href={links.webUrl} variant="secondary">
+                    <ExternalLink />
                     Website
                   </LinkButton>
                 </div>
