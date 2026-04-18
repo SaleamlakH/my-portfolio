@@ -9,38 +9,26 @@
 :root {
   --color-body-bg: hsl(130 25 5);
 
-  --color-surface-bg: hsl(120 25 10);
-  --color-surface-text: hsl(0 0 85);
-  --color-surface-border: hsl(120 30 20);
-  --color-surface-secondary-bg: hsl(120 5 5);
-  --color-surface-secondary-text: hsl(0 0 80);
+  --color-surface-bg: hsl(145 20 12);
+  --color-surface-text: hsl(0 0 78);
+  --color-surface-border: hsl(145 18 24);
+  --color-surface-secondary-bg: hsl(145 18 10);
+  --color-surface-secondary-text: hsl(0 0 72);
+  --color-surface-card-bg: hsl(145 15 16);
+  --color-surface-card-muted: hsl(210 14 38);
+  --color-surface-placeholder-bg: hsl(145 14 13);
 
-  --color-btn-primary-bg: hsl(120 50 20);
-  --color-btn-primary-text: ;
-  --color-btn-primary-border: ;
-  --color-btn-primary-hover: ;
-  --color-btn-secondary-bg: ;
-  --color-btn-secondary-text: ;
-  --color-btn-secondary-border: hsl(120 50 20);
-  --color-btn-secondary-hover: ;
-
-  /* light mode */
-  /* --color-body-bg: hsl(0 0 95);
-
-  --color-surface-bg: hsl(120 0 90);
-  --color-surface-text: hsl(0 0 20);
-  --color-surface-border: hsl(120 30 20/ 0);
-  --color-surface-secondary-bg: hsl(120 5 5);
-  --color-surface-secondary-text: hsl(0 0 80);
-
-  --color-btn-primary-bg: hsl(120 0 75);
-  --color-btn-primary-text: ;
-  --color-btn-primary-border: ;
-  --color-btn-primary-hover: ;
-  --color-btn-secondary-bg: ;
-  --color-btn-secondary-text: ;
-  --color-btn-secondary-border: hsl(120 50 20/0.5);
-  --color-btn-secondary-hover: ; */
+  --color-btn-primary-bg: hsl(146 45 22);
+  --color-btn-primary-text: hsl(0 0 92);
+  --color-btn-primary-border: hsl(146 45 22);
+  --color-btn-primary-hover: hsl(146 42 28);
+  --color-btn-secondary-bg: transparent;
+  --color-btn-secondary-text: hsl(0 0 82);
+  --color-btn-secondary-border: hsl(146 45 22);
+  --color-btn-secondary-hover: hsl(146 20 18);
+  --color-interaction-text: hsl(0 0 94);
+  --color-interaction-outline: hsl(146 34 40);
+  --shadow-interaction: 0 8px 18px hsl(145 24 5 / 0.28);
 }
 
 body {
