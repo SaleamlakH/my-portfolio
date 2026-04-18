@@ -33,7 +33,29 @@
 }
 
 :root[data-theme='light'] {
-  --color-body-bg: white;
+  color-scheme: light;
+  --color-body-bg: hsl(48 15 93);
+
+  --color-surface-bg: hsl(0 0 96);
+  --color-surface-text: hsl(0 0 20);
+  --color-surface-border: hsl(0 0 82);
+  --color-surface-secondary-bg: hsl(0 0 100);
+  --color-surface-secondary-text: hsl(0 0 25);
+  --color-surface-card-bg: hsl(0 0 90);
+  --color-surface-card-muted: hsl(210 10 64);
+  --color-surface-placeholder-bg: hsl(0 0 95);
+
+  --color-btn-primary-bg: hsl(146 36 42);
+  --color-btn-primary-text: hsl(0 0 100);
+  --color-btn-primary-border: hsl(146 36 42);
+  --color-btn-primary-hover: hsl(146 36 36);
+  --color-btn-secondary-bg: transparent;
+  --color-btn-secondary-text: hsl(0 0 28);
+  --color-btn-secondary-border: hsl(146 30 48);
+  --color-btn-secondary-hover: hsl(146 28 86);
+  --color-interaction-text: hsl(0 0 14);
+  --color-interaction-outline: hsl(146 28 52);
+  --shadow-interaction: 0 8px 18px hsl(0 0 65 / 0.2);
 }
 
 body {
