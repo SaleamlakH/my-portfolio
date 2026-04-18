@@ -3,7 +3,7 @@ import style from './navbar.module.css';
 import * as Icons from '../Icons';
 import { navLinks } from './nav-links';
 
-function Navigation() {
+function Navigation({ theme, onToggleTheme }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef(null);
   const linksRef = useRef(null);
@@ -38,9 +38,12 @@ function Navigation() {
 
       <div className={style.rightNav}>
         {/* theme and resume link */}
-        <button className={style.themeBtn}>
-          <Icons.Sun className={style.sun} />
-          <Icons.Moon className={style.moon} />
+        <button className={style.themeBtn} onClick={onToggleTheme}>
+          {theme === 'dark' ? (
+            <Icons.Sun className={style.icon} />
+          ) : (
+            <Icons.Moon className={style.icon} />
+          )}
         </button>
 
         {/* navigation menu btn */}

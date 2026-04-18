@@ -7,6 +7,7 @@
 }
 
 :root {
+  color-scheme: dark;
   --color-body-bg: hsl(130 25 5);
 
   --color-surface-bg: hsl(145 20 12);
@@ -29,6 +30,10 @@
   --color-interaction-text: hsl(0 0 94);
   --color-interaction-outline: hsl(146 34 40);
   --shadow-interaction: 0 8px 18px hsl(145 24 5 / 0.28);
+}
+
+:root[data-theme='light'] {
+  --color-body-bg: white;
 }
 
 body {
