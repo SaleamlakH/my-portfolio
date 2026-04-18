@@ -1,6 +1,6 @@
 .contact {
   color: var(--color-surface-text);
-  padding:0 1em;
+  padding: 0 1em;
   display: grid;
 }
 
@@ -55,6 +55,11 @@
 .textarea {
   min-height: 160px;
   resize: vertical;
+}
+
+.input::placeholder,
+.textarea::placeholder {
+  color: var(--color-surface-secondary-text);
 }
 
 @media (max-width: 640px) {
