@@ -2,16 +2,17 @@
   display: inline-flex;
   font-size: 1rem;
   padding: 0.6em;
-  background-color: hsl(120 5 15);
+  background-color: var(--color-surface-bg);
+  border: 1px solid transparent;
   border-radius: 5em;
-  /* border: 1px solid hsl(0 0 20); */
   overflow: hidden;
+  transition: all 0.15s ease;
+}
 
-  &:hover,
-  &:focus {
-    /* background-color: hsl(240 10 15); */
-    background-color: transparent;
-    outline: 1px solid hsl(0 0 20);
-    border-radius: 5em;
-  }
+.social:hover,
+.social:focus {
+  transform: translateY(-1px);
+  border-color: var(--color-interaction-outline);
+  color: var(--color-interaction-text);
+  box-shadow: var(--shadow-interaction);
 }

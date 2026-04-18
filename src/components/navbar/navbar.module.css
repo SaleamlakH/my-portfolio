@@ -27,12 +27,15 @@
 .links a {
   text-align: center;
   padding: 0.5em 0.8em;
+  transition: all 0.15s ease;
+}
 
-  &:hover,
-  &:active {
-    border-radius: 5em;
-    background-color: var(--color-btn-primary-bg);
-  }
+.links a:hover,
+.links a:active {
+  border-radius: 5em;
+  background-color: var(--color-btn-primary-bg);
+  color: var(--color-interaction-text);
+  box-shadow: var(--shadow-interaction);
 }
 
 /* small screen  */
@@ -45,6 +48,7 @@
   position: absolute;
   top: 0.5em;
   right: 0.5em;
+  z-index: 10;
   display: flex;
   flex-direction: column;
   color: var(--color-surface-secondary-text);
@@ -57,10 +61,18 @@
 
 .menuLinks a {
   padding: 1em 4em 1em 1em;
+  transition: all 0.15s ease;
 }
 
 .menuLinks a:not(:first-of-type) {
   border-top: 1px solid var(--color-surface-border);
+}
+
+.menuLinks a:hover,
+.menuLinks a:focus {
+  background-color: var(--color-btn-primary-bg);
+  color: var(--color-interaction-text);
+  transform: translateX(2px);
 }
 
 .rightNav {
@@ -82,6 +94,22 @@
   border: 1px solid var(--color-btn-secondary-border);
   border-radius: 8px;
   padding: 0.5em;
+}
+
+.menuBtn,
+.themeBtn {
+  transition: all 0.15s ease;
+}
+
+.menuBtn:hover,
+.menuBtn:focus,
+.themeBtn:hover,
+.themeBtn:focus {
+  background-color: var(--color-btn-secondary-hover);
+  color: var(--color-interaction-text);
+  border-radius: 10px;
+  box-shadow: var(--shadow-interaction);
+  transform: translateY(-1px);
 }
 
 .sun {
