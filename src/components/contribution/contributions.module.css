@@ -1,0 +1,109 @@
+.contributions {
+  color: var(--color-surface-text);
+  padding: 0 1em;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  margin-top: 0;
+}
+
+.container {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: var(--color-surface-secondary-bg);
+  border: 1px solid var(--color-surface-border);
+  border-radius: 2em;
+  padding: 1em;
+  overflow: hidden;
+}
+
+.summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.25em;
+  width: 280px;
+  padding: 0.5em;
+  border-radius: 1em;
+  transition: all 0.15s ease;
+}
+
+.summary:hover,
+.summary:focus {
+  background-color: var(--color-btn-secondary-hover);
+  color: var(--color-interaction-text);
+  box-shadow: var(--shadow-interaction);
+  transform: translateY(-1px);
+}
+
+.calendarFrame {
+  overflow-x: auto;
+  background-color: var(--color-surface-bg);
+  border-radius: 10px;
+}
+
+.calendar {
+  margin: auto;
+  border-spacing: 3px;
+  padding: 0.5em;
+}
+
+.day {
+  background-color: var(--color-contribution-bg-0);
+  border: 1px solid var(--color-contribution-border-0);
+  border-radius: 3px;
+  padding: 0.35em;
+  position: relative;
+}
+
+.day[data-level='1'] {
+  background-color: var(--color-contribution-bg-1);
+  border: 1px solid var(--color-contribution-border-1);
+}
+
+.day[data-level='2'] {
+  background-color: var(--color-contribution-bg-2);
+  border: 1px solid var(--color-contribution-border-2);
+}
+
+.day[data-level='3'] {
+  background-color: var(--color-contribution-bg-3);
+  border: 1px solid var(--color-contribution-border-3);
+}
+
+.day[data-level='4'] {
+  background-color: var(--color-contribution-bg-4);
+  border: 1px solid var(--color-contribution-border-4);
+}
+
+.legend {
+  margin-inline-start: auto;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--color-surface-text);
+}
+
+.day:not(.legend .day):hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 140%;
+  left: -70px;
+  white-space: nowrap;
+  background-color: var(--color-tooltip-bg);
+  color: var(--color-surface-text);
+  font-size: 0.75em;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+}
+
+.month {
+  font-size: 0.75em;
+  font-weight: 400;
+  padding: 0;
+  text-align: left;
+}

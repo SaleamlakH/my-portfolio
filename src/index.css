@@ -30,6 +30,19 @@
   --color-interaction-text: hsl(0 0 94);
   --color-interaction-outline: hsl(146 34 40);
   --shadow-interaction: 0 8px 18px hsl(145 24 5 / 0.28);
+
+  /* Github contribution level colors */
+  --color-contribution-bg-0: hsl(0 0 17);
+  --color-contribution-border-0: hsl(0 0 21);
+  --color-contribution-bg-1: hsl(122 39 23);
+  --color-contribution-border-1: hsl(122 38 27);
+  --color-contribution-bg-2: hsl(122 43 34);
+  --color-contribution-border-2: hsl(122 42 38);
+  --color-contribution-bg-3: hsl(122 54 45);
+  --color-contribution-border-3: hsl(122 53 48);
+  --color-contribution-bg-4: hsl(122 68 58);
+  --color-contribution-border-4: hsl(122 63 62);
+  --color-tooltip-bg: hsl(0 0 8);
 }
 
 :root[data-theme='light'] {
@@ -56,6 +69,19 @@
   --color-interaction-text: hsl(0 0 14);
   --color-interaction-outline: hsl(146 28 52);
   --shadow-interaction: 0 8px 18px hsl(0 0 65 / 0.2);
+
+  /* Github contribution level colors */
+  --color-contribution-bg-0: hsl(0 0 88);
+  --color-contribution-border-0: hsl(0 0 80);
+  --color-contribution-bg-1: hsl(122 68 58);
+  --color-contribution-border-1: hsl(122 63 62);
+  --color-contribution-bg-2: hsl(122 54 45);
+  --color-contribution-border-2: hsl(122 53 48);
+  --color-contribution-bg-3: hsl(122 43 34);
+  --color-contribution-border-3: hsl(122 42 38);
+  --color-contribution-bg-4: hsl(122 39 23);
+  --color-contribution-border-4: hsl(122 38 27);
+  --color-tooltip-bg: hsl(0 0 100);
 }
 
 body {

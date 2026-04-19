@@ -6,6 +6,7 @@ import Projects from './components/projects/Projects';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import { useEffect, useState } from 'react';
+import ContributionGraph from './components/contribution/ContributionGraph';
 
 const THEME_LOCAL_STORAGE_KEY = 'portfolio-sale.amlak';
 
@@ -39,6 +40,8 @@ function App() {
       />
 
       <Hero />
+
+      <ContributionGraph />
 
       <TechStack />
 
